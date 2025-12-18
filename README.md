@@ -1,12 +1,12 @@
-# WIDS-25 - GitHub Repository Guide Agent
+# WIDS-25: GitHub Repository Guide Agent
 
-## WEEK-1
+## Week 1: README Fetcher
 
 A Python script that uses the **GitHub REST API** (via PyGithub) to fetch and display the `README.md` file of any public GitHub repository.
 
 ---
 
-# Features
+## Features
 
 * Connects to GitHub using a Personal Access Token (PAT)
 * Accepts repository input in `owner/repo` format
@@ -51,15 +51,15 @@ pip install -r requirements.txt
 2. Generate a token with **repo (read-only)** access
 3. Create a `.env` file in the project root:
 
-```
+```env
 GITHUB_TOKEN=your_personal_access_token_here
 ```
 
- **Never commit your ****************************************`.env`**************************************** file**
+> ⚠️ **Never commit your `.env` file to GitHub**
 
 ---
 
-##  How to Run
+## How to Run
 
 ```bash
 python week1.py
@@ -72,16 +72,16 @@ You will be prompted to enter:
 
 Example:
 
-```
-Enter owner name: torvalds
-Enter repo name: linux
+```text
+Enter owner name: PyGithub
+Enter repo name: PyGithub
 ```
 
 The README content will be printed to the terminal.
 
 ---
 
-##  Error Handling
+## Error Handling
 
 The script handles:
 
@@ -90,7 +90,6 @@ The script handles:
 * Authentication failures
 * Permission or rate-limit errors
 
-User-friendly messages are displayed instead of raw errors.
+> User-friendly messages are displayed instead of raw errors.
 
 ---
-
