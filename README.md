@@ -99,20 +99,22 @@ The script handles:
 This project implements an AI-powered GitHub README summarizer using a Large Language Model (Google Gemini).  
 It extends basic API usage into intelligent understanding and summarization of repository documentation.
 
-The script fetches a repository’s `README.md`, sends it to Gemini, and generates a structured, human-readable summary in the terminal.
+The script fetches a repository’s `README.md`, sends it to Large Language Model, and generates a structured, human-readable summary in the terminal.
 
 ---
 
-##  Features
+## Features
 
-- **Fetches README.md content** from any public GitHub repository.
-- **Summarizes repository documentation** using the **Gemini 2.5 Flash LLM**.
+- **Fetches README.md content** from any public GitHub repository
+- **Prepares and truncates text** for LLM input
+- **Sends the content to LLM** with a structured prompt
+- **Summarizes repository documentation** using the **Gemini 2.5 Flash LLM**
 - **Generates concise, structured summaries** highlighting:
   - What the project does
   - Its main purpose
   - Key features or components
   - Intended users or use cases
-- **Handles common API and runtime errors gracefully.**
+- **Handles common API and runtime errors gracefully**
 
 ---
 
