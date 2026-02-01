@@ -194,7 +194,7 @@ Through this project across Week 1 and Week 2, I learned how to design a small b
   
 ---
 
-# ** Week 3 — GitHub Repository Analysis Agent**
+#  Week 3 — GitHub Repository Analysis Agent
 
 ### Overview
 
