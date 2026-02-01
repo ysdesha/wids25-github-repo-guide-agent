@@ -250,7 +250,8 @@ pip install -r requirements.txt
 streamlit run week4.py
 ```
 
-![Streamlit UI](reponavigator.png)
+![Streamlit UI](reponavigato.png)
+![Streamlit UI](ui1.png)
 
 
 ## Example Workflow
