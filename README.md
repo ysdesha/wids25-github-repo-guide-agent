@@ -249,6 +249,10 @@ pip install -r requirements.txt
 # Run the Streamlit app
 streamlit run week4.py
 ```
+
+![Streamlit UI](reponavigator.png)
+
+
 ## Example Workflow
 1. **Open the sidebar** and enter the repository owner and repository name.
 2. **Click Generate** to fetch repository data and generate a guided developer tour.
@@ -304,6 +308,5 @@ This project successfully transformed an AI concept into a complete, demo-ready 
 - The application is fully demo-ready and suitable for portfolio presentation or further extension.
 - The project bridges the gap between AI experimentation and real-world product development.
 
-### Final Reflection
-This project strengthened both AI engineering and software development skills, emphasizing not just *building intelligence*, but also *delivering usable, polished AI products*.
+
 
