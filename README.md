@@ -194,7 +194,7 @@ Through this project across Week 1 and Week 2, I learned how to design a small b
   
 ---
 
-# ** Week 3 — GitHub Repository Analysis Agent**
+#  Week 3 — GitHub Repository Analysis Agent
 
 ### Overview
 
@@ -250,7 +250,15 @@ pip install -r requirements.txt
 streamlit run week4.py
 ```
 
-![Streamlit UI](reponavigator.png)
+<p align="center">
+  <img src="assets/reponavigator.png" width="80%">
+  <br>
+  <em>Streamlit Web Interface of the GitHub Repository Guide Agent</em>
+</p>
+
+<p align="center">
+  <img src="assets/ui.png" width="80%">
+</p>
 
 
 ## Example Workflow
