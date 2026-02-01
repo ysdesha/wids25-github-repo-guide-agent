@@ -250,8 +250,15 @@ pip install -r requirements.txt
 streamlit run week4.py
 ```
 
-![Streamlit UI](reponavigato.png)
-![Streamlit UI](ui1.png)
+<p align="center">
+  <img src="assets/reponavigator.png" width="80%">
+  <br>
+  <em>Streamlit Web Interface of the GitHub Repository Guide Agent</em>
+</p>
+
+<p align="center">
+  <img src="assets/ui.png" width="80%">
+</p>
 
 
 ## Example Workflow
